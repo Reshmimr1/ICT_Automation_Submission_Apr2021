@@ -31,7 +31,7 @@ public class Browser{
 //            }
     }
     public static void closeBrowser(WebDriver driver){
-        driver.close();
+        driver.quit();
     }
 
 }
